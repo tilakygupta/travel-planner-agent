@@ -6,7 +6,7 @@ import uuid
 app = Flask(__name__)
 
 # IBM watsonx.ai credentials
-IBM_API_KEY = os.environ.get('IBM_API_KEY', 'b0vt-p0Nlk1VZ4FXvO3J_yD0UX6mEq5A0Cc7P10V2g7E')
+IBM_API_KEY = os.environ.get('IBM_API_KEY', 'MY_API_KEY')
 PROJECT_ID  = os.environ.get('PROJECT_ID',  '01e2efd8-fb38-41be-b5c6-cf7fb44787bc')
 WX_URL      = 'https://au-syd.ml.cloud.ibm.com'
 
