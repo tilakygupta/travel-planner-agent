@@ -1,0 +1,15 @@
+{
+  "name": "travel-planner-agent",
+  "description": "AI Travel Planner Agent using IBM Granite",
+  "repository": "https://github.com/tilakygupta/travel-planner-agent",
+  "env": {
+    "IBM_API_KEY": {
+      "description": "IBM Cloud API Key",
+      "required": true
+    },
+    "PROJECT_ID": {
+      "description": "watsonx.ai Project ID",
+      "required": true
+    }
+  }
+}
